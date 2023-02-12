@@ -1,0 +1,59 @@
+.books{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: 'Cinzel', serif;
+}
+p{
+    font-family: 'Cinzel', serif;
+}
+.text1{
+    width: 440px;
+    height: 720px;
+}
+.main{
+    background-color: rgb(240,243,246);
+    margin: 15px 70px;
+    display: flex;
+    width: 980px;
+    height: 720px;
+}
+.image{
+    width: 600px;
+}
+img{
+    width: 600px;
+    height: 438px;
+    margin: 170px 0;
+}
+.main .title{
+    font-size: 64px;
+    margin: 0 30px;
+    margin-top: 180px;
+    width: 380px;
+}
+.main .undertitle{
+    margin: 20px 30px;
+}
+.prices .price{
+    font-size: 64px;
+    margin: 0 30px;
+}
+.prices button{
+    padding: 11px 39px;
+    background-color: transparent;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+.prices button:hover{
+    cursor: pointer;
+    background-color: rgb(43, 43, 69);
+    border-color: rgb(43, 43, 69);
+    color: white;
+    transition: 0.4s;
+}
+.main .prices{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}

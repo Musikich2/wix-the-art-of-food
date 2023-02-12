@@ -1,0 +1,46 @@
+
+.info{
+    margin: 0 70px;
+    display: flex;
+    background-color: rgb(240,243,246);
+}
+.image{
+    width: 490px;
+    height: 884px;
+}
+img{
+    width: 490px;
+    height: 884px;
+}
+.text{
+    background-color: rgb(240,243,246);
+    flex-direction: column;
+    margin: 150px 20px;
+}
+.text p{
+    font-family: 'Cinzel', serif;
+    text-transform: lowercase;
+}
+.text .title{
+    font-size: 40px;
+}
+.text .undertitle{
+    margin-top: 20px;
+}
+.text .undertitle2{
+    margin-top: 20px;
+}
+.text .education{
+    margin-top: 45px;
+    font-size: 20px;
+}
+.text .undereducation{
+    margin-top: 20px;
+}
+.text .awards{
+    font-size: 20px;
+    margin-top: 45px;
+}
+.text .underawards{
+    margin-top: 20px;
+}
